@@ -8,5 +8,8 @@ Website for Women's Fashion Store, Despojada
 ## Technology
 * Wordpress
 
-## Screenshot
-![Screenshot blog](./screenshot.png)
+## Screenshot site
+![Screenshot site](./screenshot.png)
+
+## Screenshot blog
+![Screenshot blog](./layout-blog.png)
