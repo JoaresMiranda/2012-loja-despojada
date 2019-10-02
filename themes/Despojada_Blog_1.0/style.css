@@ -1,0 +1,107 @@
+/*
+Theme Name: Blog Despojada
+Theme URI: http://www.eusoudespojada.com.br
+Description: Tema personalizado criado para o blog da loja Despojada (maio/2012)
+Version: 1.0
+Author: Joares Miranda
+Author URI: http://numclique.net
+*/
+
+* { margin:0; padding:0; }
+html { background:url(imagens/bg.png) repeat top left; }
+body { color:#333; font:14px Arial, Helvetica, sans-serif;}
+
+a { text-decoration:none; color:#333; }
+
+#Header { background:url(imagens/bg_top.gif) repeat-x center left; height:100px; margin-top:20px; position:relative; }
+.bgRotativo { width:1000px; margin:0 auto; position:relative; }
+#Header h1 { text-indent:-5000px; overflow:hidden; width:230px; height:100px; margin-left:10px; float:left; }
+#Header h1 a { background:url(imagens/logo.png) no-repeat top left; width:216px; height:101px; display:block; }
+
+#Menu { position:absolute; right:15px; top:40px; }
+#Menu li { display:inline; list-style:none; font-family: 'Raleway', cursive; font-size:25px; font-weight:bold; margin-left:30px; padding-bottom:15px; }
+#Menu li.menuAtivo { border-bottom:5px solid #F36; }
+
+#Main { background:url(imagens/bg_blog.png) repeat-y top left; width:1000px; margin:15px auto 0 auto; }
+
+
+#Content { width:650px; float:left; }
+
+.dtPost { background:url(imagens/bg_data.png) no-repeat top left; width:88px; height:76px; color:#FFF; font-family: 'Raleway', cursive; font-size:20px; font-weight:bold; float:left; }
+.dtPost .dia { font-size:40px; }
+.data { position:relative; top:-1px; left:6px; }
+
+.cxPost { margin:10px 0 0 10px; }
+.cxPost,
+.ttPost { width:640px; clear:both; overflow:hidden; background:url(imagens/pontilhado.gif) no-repeat bottom left; padding-bottom:20px; margin-bottom:20px; }
+.ttPost h1 { font-family: 'Raleway', cursive; font-size:35px; width:525px; margin-left:98px; }
+.ttPost h1 a { color:#333; }
+.ttPost h1 a:hover { text-decoration:none; color:#F36; }
+
+.txtPost p { margin-bottom:15px; line-height:18px; }
+.gambi { clear:both; float:none; color:#FFF; }
+/* alinhamentos */
+.txtPost img.esquerda,
+.txtPost img.imgalignleft,
+.txtPost img.alignleft,
+.txtPost div.alignleft { margin:0px 10px 5px 0px; float:left; }
+.txtPost img.direita,
+.txtPost img.imgalignright,
+.txtPost img.alignright,
+.txtPost div.alignright { margin:0px 0px 5px 10px; float:right; }
+.txtPost img.aligncenter,
+.txtPost div.aligncenter { margin:0px auto 5px auto; clear:both; text-align:center; }
+.txtPost .paginador { clear:both; text-align:center; position:relative; top:20px; }
+.aligncenter,
+p object,
+.flashvideo embed { display:block; margin:5px auto; }
+.alignright { margin:0px 0px 5px 10px; float:right; }
+.alignleft { margin:0px 10px 5px 0px; float:left; }
+.txtPost ol,
+.txtPost ul { margin-left:25px; }
+.txtPost li { margin-bottom:5px; }
+.txtPost a { color:#F36 !important; font-weight:bold; }
+.txtPost a:hover { text-decoration:underline; }
+
+.dadosPost { background-color:#F4F4F4; padding:5px 10px; margin-top:10px; font-family: 'Raleway', cursive; font-size:18px; font-weight:bold; clear:both; float:left; width:620px; }
+.dadosPost p { padding:5px 0; }
+.dadosPost span { position:relative; top:-5px; }
+
+
+/* SIDEBAR */
+#Sidebar { width:320px; float:right; margin:10px 10px 0 0; position:relative; }
+.ttSidebar { background:url(imagens/bg-tt-sidebar.png) no-repeat top left; padding:5px 0 10px 10px; width:310px; clear:both; float:left; margin:8px 0; font-family: 'Raleway', cursive; font-size:28px; font-weight:bold; color:#FFF; }
+#Sidebar a:hover,
+#PostsRelacionados li a:hover { color:#F36; }
+
+.btFacebook { margin-left:13px; }
+.textoSocial { color:#FFF; margin:10px 0; }
+
+#Busca { width:320px; margin-top:10px; }
+#Busca fieldset { border:none; }
+#Busca legend,
+#Busca label { display:none; }
+#Busca form { background-color:#FFF; width:320px; height:37px; margin-bottom:8px; }
+#Busca #s { width:260px; height:28px; padding:2px 5px; position:relative; top:2px; left:2px; border:none; }
+#Buscar { border:none; text-indent:-5000px; overflow:hidden; background:url(imagens/bt_busca.gif) no-repeat top left; width:30px; height:30px; cursor:pointer; position:relative; top:3px; left:10px; }
+
+#PostsRecentes li,
+#Categoria li,
+#Links li { list-style:none; border-bottom:1px solid #F4F4F4; padding:10px 0; margin:10px 0; }
+
+#Tags { clear:both; padding-top:0; }
+#Tags div { text-align:center; }
+#Tags a { color:#FFF; margin:2px; }
+
+#Footer { background-color:#F4F4F4; padding:5px 0; }
+#Footer p { width:1000px; margin:10px auto; padding:15px 0; text-indent:-5000px; overflow:hidden; background:url(imagens/logo-rodape.png) no-repeat right center; }
+
+#PostsRelacionados,
+#Comentarios { margin:10px 0 20px 10px; width:640px; }
+#PostsRelacionados h3,
+#Comentarios h3 {  font-family: 'Raleway', cursive; font-size:25px; margin-bottom:10px; }
+
+#PostsRelacionados li { border-bottom:1px solid #F4F4F4; margin:5px 0; padding:5px 0; list-style:none; }
+
+#ttPagina { font-family: 'Raleway', cursive; font-size:25px; margin:10px 0 20px 10px; }
+.msgErro { margin:10px 0 0 10px; }
