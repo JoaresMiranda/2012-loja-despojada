@@ -1,0 +1,137 @@
+/*
+Theme Name: Despojada
+Theme URI: http://www.despojada.com.br
+Description: Tema personalizado criado para o site da loja Despojada (maio/2012)
+Version: 1.0
+Author: Joares Miranda
+Author URI: http://numclique.net
+*/
+
+* { margin:0; padding:0; }
+html { background:url(imagens/bg.png) repeat top left; }
+body { color:#333; font:14px Arial, Helvetica, sans-serif; line-height:18px; }
+
+a { text-decoration:none; color:#333; }
+
+#Capa #Site { width:1000px; margin:10px auto; background-color:#FFF; padding-top:8px; }
+#Capa #Header { background:url(imagens/_extra/foto-capa.png) no-repeat top left; width:980px; height:525px; position:relative; margin:0 0 0 10px; }
+#Capa .bgRotativo { background:url(imagens/filtro-foto-capa.png) no-repeat top left; width:980px; height:525px; }
+#Capa #Header h1 { text-indent:-5000px; overflow:hidden; background:url(imagens/transparencia.png); width:230px; height:145px; margin-left:10px; }
+#Capa #Header h1 a { background:url(imagens/logo.png) no-repeat top left; width:216px; height:101px; display:block; position:relative; top:20px; left:7px; }
+
+#Capa #Menu { margin-top:50px; }
+#Capa #Menu li { list-style:none; font-family: 'Raleway', cursive; font-size:25px; font-weight:bold; background:url(imagens/transparencia.png) top left; width:230px; height:50px; margin:0 0 5px 10px; }
+#Capa #Menu li a { position:relative; top:18px; left:15px; color:#333; text-decoration:none; }
+
+#ColecaoApresentacao { background:url(imagens/pontilhado.gif) no-repeat 8px 0; padding-top:15px; margin-top:15px; }
+.cartola { font-family: 'Raleway', cursive; font-size:25px; color:#FFF; background-color:#F36; width:102px ; height:25px; padding:5px 10px; text-transform:lowercase; margin:0 0 0 8px; }
+h2.tt-Colecao { background-color:#000; width:430px; font-family: 'Raleway', cursive; font-size:40px; font-weight:normal; color:#F36; padding:15px 10px; margin-left:8px; }
+h2.tt-Colecao span { color:#FFF; }
+#ColecaoApresentacao li { list-style:none; float:left;  margin:8px; }
+#ColecaoApresentacao li img { width:150px; height:225px; }
+#ColecaoApresentacao .linkMais { clear:both; text-align:right; border-right:5px solid #F36; padding:3px 10px; font-family: 'Raleway', cursive; font-size:14px; font-weight:bold; margin-right:10px; }
+
+
+#ContentCapa { background:url(imagens/pontilhado.gif) no-repeat 8px 0; padding:25px 0; margin:15px 0 25px 0; font-size:12px; }
+
+#MiniSobre,
+#MiniBlog,
+#MiniContato { width:300px; height:350px; float:left; margin:0 8px 20px 8px; }
+#MiniBlog,
+#MiniContato { border-left:1px dotted #CCC; padding-left:10px; }
+
+#MiniSobre h3,
+#MiniBlog h3,
+#MiniContato h3 { border-left:5px solid #F36; padding-left:10px; font-family: 'Raleway', cursive; font-size:25px; font-weight:bold; margin-bottom:10px; }
+#MiniSobre p,
+#MiniBlog p,
+#MiniContato p { margin-bottom:15px; }
+
+#MiniBlog li { list-style:none; width:300px; margin:8px 0; padding:8px 0; border-bottom:1px dotted #CCC; }
+#MiniBlog li a:hover { text-decoration:underline; }
+
+#MiniContato li { list-style:none; padding-left:25px; margin-bottom:15px; font-size:12px; }
+.linkFaceBook { background:url(imagens/ic-fb.png) no-repeat center left; }
+.linkTwitter { background:url(imagens/ic-twitter.png) no-repeat center left; }
+.linkTelefone { background:url(imagens/ic-telefone.png) no-repeat center left; }
+
+.verMais { font-weight:bold; text-align:right; font-size:12px; text-transform:lowercase; }
+
+#Footer { background:url(imagens/pontilhado.gif) no-repeat 10px 0; padding:15px 0; margin-top:15px; text-align:center; width:1000px; float:none; clear:both; }
+#Footer p { text-indent:-5000px; background:url(imagens/logo-rodape.png) no-repeat top left; width:101px; height:47px; margin:5px auto; clear:both; }
+
+
+/* INTERNA */
+#Interna #Header { background:url(imagens/bg_top.gif) repeat-x center left; height:100px; margin-top:20px; position:relative; }
+#Interna .bgRotativo { width:1000px; margin:0 auto; position:relative; }
+#Interna #Header h1 { text-indent:-5000px; overflow:hidden; width:230px; height:100px; margin-left:10px; float:left; }
+#Interna #Header h1 a { background:url(imagens/logo.png) no-repeat top left; width:216px; height:101px; display:block; }
+
+#Interna #Menu { position:absolute; right:15px; top:40px; }
+#Interna #Menu li { display:inline; list-style:none; font-family: 'Raleway', cursive; font-size:25px; font-weight:bold; margin-left:30px; padding-bottom:15px; }
+#Interna #Menu li.menuAtivo { border-bottom:5px solid #F36; }
+
+#Interna #Main,
+#Interna #Footer { background-color:#FFF; width:1000px; margin:0 auto; }
+
+#Interna #Footer { margin-bottom:10px !important; }
+
+#Content { width:980px; margin:20px auto 0 auto; padding:10px 0; }
+.tt-Pagina { font-family: 'Raleway', cursive; font-size:25px; font-weight:bold; border-left:5px solid #F36; padding:5px 10px; margin-bottom:20px; }
+.txtPost p { margin-bottom:15px; }
+.gambi { clear:both; float:none; color:#FFF; }
+/* alinhamentos */
+.txtPost img.esquerda,
+.txtPost img.imgalignleft,
+.txtPost img.alignleft,
+.txtPost div.alignleft { margin:0px 10px 5px 0px; float:left; }
+.txtPost img.direita,
+.txtPost img.imgalignright,
+.txtPost img.alignright,
+.txtPost div.alignright { margin:0px 0px 5px 10px; float:right; }
+.txtPost img.aligncenter,
+.txtPost div.aligncenter { margin:0px auto 5px auto; clear:both; text-align:center; }
+.txtPost .paginador { clear:both; text-align:center; position:relative; top:20px; }
+.aligncenter,
+p object,
+.flashvideo embed { display:block; margin:5px auto; }
+.alignright { margin:0px 0px 5px 10px; float:right; }
+.alignleft { margin:0px 10px 5px 0px; float:left; }
+.txtPost ol,
+.txtPost ul { margin-left:25px; }
+.txtPost li { margin-bottom:5px; }
+
+/* COLECOES */
+.txtPost .cartola,
+.txtPost h2.tt-Colecao { margin:0 !important; }
+
+.Colecoes .txtPost ul li { list-style:none; float:left; margin:10px 10px 0 0; }
+.Colecoes .txtPost ol,
+.Colecoes .txtPost ul { margin-left:0; }
+.Colecoes .txtPost li { margin-bottom:0; }
+
+#ColecoesAnteriores { background:url(imagens/pontilhado.gif) no-repeat 0 0; padding:15px 0; margin-top:15px; clear:both; float:left; width:100%; }
+#ColecoesAnteriores .boxAnteriores { width:150px; height:200px; float:left; margin:10px 10px 0 0; font-size:12px; }
+
+
+.gallery-item { float: left; margin:10px 10px 0 0 !important; text-align: center; width: auto !important; }
+img,
+a img { border: none !important; }
+.gallery-caption { margin-left: auto !important; }
+
+
+
+#ctForm { width:460px; margin:25px 0; text-align:right; }
+#ctForm p { margin:10px 0 5px 0; color:#666; }
+#ctForm input { width:300px; height:20px; padding:2px; border:1px solid #666; font:12px "Trebuschet MS",Verdana, Arial, Helvetica, sans-serif; color:#333; }
+#ctForm input#ctDDD { width:50px; text-align:center; }
+#ctForm input#ctFone { width:240px; }
+#ctForm input#btEnviarCt { width:150px; height:35px; position:relative; left:0; cursor:pointer; }
+#nome { margin-left:35px; }
+#fone { margin-left:32px; }
+#email { margin-left:32px; }
+#url { margin-left:23px; }
+#assunto { margin-left:24px; }
+#mensagem { float:left; margin:0 5px 0 7px; position:relative; left:65px; }
+#ctForm #ctMsgs { width:300px; height:200px; padding:2px; border:1px solid #666; font:12px "Trebuschet MS",Verdana, Arial, Helvetica, sans-serif; color:#333; }
+p.legenda { font:italic 11px Verdana, Arial, Helvetica, sans-serif; color:#999; margin-left:30px; }
